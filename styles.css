@@ -12,8 +12,6 @@ p {
   color: #dbdbdb;
 }
 
-/* Headings */
-
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 10rem;
@@ -33,13 +31,10 @@ p {
   line-height: 1.5;
 }
 
-/* Containers */
-
 .container-fluid{
   padding: 7% 15%;
 }
 
-/* Sections */
 
 .colored-section {
  background-color: #757F9A
@@ -49,7 +44,7 @@ color: #dbdbdb;
 .white-section {
   background-color: #757F9A
 }
-/* Navigation Bar */
+
 
 .navbar {
   padding: 0 0 3.5rem;
@@ -70,22 +65,9 @@ color: #dbdbdb;
   font-family: "Montserrat-Light";
 }
 
-/*.navbar.scrolled{
-    background: rgb(31,34,255);
-    padding: 0 0 4.5rem;
-    transition: background 500ms;
-     {
-        color: #0a0eff;
-    }
-
-}*?
-/* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
-
-/* Title Section */
 
 #title {
   background-color: #757F9A;
@@ -97,16 +79,6 @@ color: #dbdbdb;
   padding: 3% 15% 7%;
 }
 
-/* Title Image */
-/*
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-} */
-
-/* Features Section */
 
 #features {
   position: relative;
@@ -129,8 +101,6 @@ color: #dbdbdb;
 .icon:hover {
   color: #ffffff;
 }
-
-/* Testimonial Section */
 
 #testimonials {
   background-color: #757F9A
@@ -158,8 +128,6 @@ color: #dbdbdb;
   margin: 20px 20px 50px;
 }
 
-/* Pricing Section */
-
 #pricing {
   padding: 100px;
 }
@@ -173,14 +141,32 @@ color: #dbdbdb;
   padding: 3% 2%;
 }
 
-/* CTA Section */
-
-
-/* Footer Section */
-
 
 .social-icon {
-  margin: 20px 10px;
+  margin: 20px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-icon {
+    margin: 10px 10px;
+  }
+}
+
+.social-icon.fa-facebook:hover {
+  color: #3b5998;
+}
+
+.social-icon.fa-instagram:hover {
+  background-image: linear-gradient(#7232bd, #c32aa3,#f46f30,#ffdc7d);
+  border-radius: 100%;
+}
+
+.social-icon.fa-twitter:hover {
+  color: #00acee;
+}
+
+.social-icon.fa-youtube:hover {
+  color: #FF0000;
 }
 
 @media (max-width: 1028px) {
@@ -188,9 +174,5 @@ color: #dbdbdb;
   #title {
     text-align: center;
   }
-/*
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  } */
+
 }
